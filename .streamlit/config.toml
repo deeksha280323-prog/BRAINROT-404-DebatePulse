@@ -1,0 +1,33 @@
+[global]
+# Streamlit configuration file
+# This file specifies the default configuration for the DebatePulse app
+
+[server]
+# Server configuration
+port = 8501
+address = "0.0.0.0"
+baseUrlPath = ""
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+# Theme configuration
+primaryColor = "#0ea5e9"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[logger]
+# Logger configuration
+level = "info"
+messageFormat = "%(asctime)s.%(msecs)03d %(levelname)s: %(message)s"
